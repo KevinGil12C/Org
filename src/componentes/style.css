@@ -1,0 +1,15 @@
+:root{
+    --header:#6278F7;
+    --color-form: #F6F6F6;
+    --color-fuente: #212121;
+    --color-input: #FFFFFF;
+    /*Colores principal*/
+    --principal-azul: #6278F7;
+    --principal-azul-light: #95FFD4;
+
+    /* Transition*/
+    --transition: 0.2s, background-color 0.2s ease-in-out;
+}
+*{
+    box-sizing: border-box;
+}

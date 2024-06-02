@@ -1,0 +1,35 @@
+@import url("../style.css");
+
+
+.formulario{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 50px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.formulario form{
+    background-color: var(--color-form);
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 25%);
+    border-radius: 20px;
+    padding: 8px 100px;
+    flex:1;
+}
+
+.formulario h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--color-fuente);
+}
+
+@media screen and (max-width:768px){
+    .formulario h2{
+        font-size: 22px;
+    }
+
+    .formulario form {
+        max-width: 92%;
+        padding: 8px 8px;
+    }
+}

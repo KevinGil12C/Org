@@ -1,0 +1,18 @@
+@import url("../style.css");
+
+.btn-crear{
+    background-color: var(--header);
+    border-radius: 10px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    padding: 24px 32px;
+    border: none;
+    color: var(--color-input);
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.btn-crear:hover{
+    color: var(--principal-azul-light);
+    transition: var(--transition);
+}

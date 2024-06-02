@@ -1,0 +1,12 @@
+@import url("../style.css");
+.header{
+    background-color: var(--header);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.header img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
